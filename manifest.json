@@ -1,0 +1,18 @@
+{
+  "short_name": "X World",
+  "name": "X World Travel Hub",
+  "description": "La super app de voyage mondiale — vols, hôtels, VTC, météo, traducteur, Amazon, WeChat, IA.",
+  "icons": [
+    { "src": "favicon.ico",  "sizes": "64x64",   "type": "image/x-icon" },
+    { "src": "logo192.png",  "sizes": "192x192", "type": "image/png"    },
+    { "src": "logo512.png",  "sizes": "512x512", "type": "image/png"    }
+  ],
+  "start_url":         ".",
+  "display":           "standalone",
+  "orientation":       "portrait-primary",
+  "theme_color":       "#020f2e",
+  "background_color":  "#020f2e",
+  "categories":        ["travel", "lifestyle", "navigation", "shopping"],
+  "lang":              "fr",
+  "scope":             "/"
+}
