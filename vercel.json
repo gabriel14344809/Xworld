@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "xworld-hub",
   "builds": [
     {
       "src": "package.json",
@@ -14,21 +13,6 @@
       "headers": { "cache-control": "public, max-age=31536000, immutable" },
       "dest": "/static/$1"
     },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff"        },
-        { "key": "X-Frame-Options",        "value": "DENY"           },
-        { "key": "X-XSS-Protection",       "value": "1; mode=block"  },
-        { "key": "Referrer-Policy",        "value": "strict-origin-when-cross-origin" }
-      ]
-    }
-  ],
-  "regions": ["cdg1", "iad1", "sin1", "syd1", "hnd1"]
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
